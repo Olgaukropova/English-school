@@ -1,0 +1,277 @@
+.page {
+  max-width: 1440px;
+
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  background: rgba(254, 206, 0, 0.83);
+  backdrop-filter: blur(6.5px);
+}
+
+.header-info {
+  margin-left: 168px;
+}
+
+.header__logotype {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logotype-name {
+  margin-left: 3px;
+  color: #18193F;
+  font-family: HeadLineA;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.4px;
+}
+
+.header__text {
+  margin: 0;
+  margin-top: 24px;
+  max-width: 629px;
+  color: #232323;
+  font-family: Museo Sans Cyrl;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.76px;
+}
+
+.header__advertisement {
+  margin: 0;
+  margin-top: 24px;
+  color: #232323;
+  font-family: Helvetica Neue;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.4px;
+  max-width: 501px;
+}
+
+.date {
+  margin: 0;
+  margin: 5px 13px 7px 15px;
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+.month {
+  margin: 0;
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  margin-top: 10px;
+}
+
+.text {
+  margin: 0;
+  color: #D2E400;
+  font-family: Museo Sans Cyrl;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 16px;
+}
+
+.header__data-block {
+  display: flex;
+  margin-top: 53px;
+}
+
+.header__data {
+  display: flex;
+  min-width: 209px;
+  border-radius: 10px;
+  background: rgba(66, 66, 66, 0.80);
+  margin-right: 22px;
+}
+
+.header__links {
+  margin-top: 76px;
+  margin-bottom: 172px;
+}
+
+.header__link-price {
+  margin: 0;
+  margin-right: 16px;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  background: #E10000;
+  padding: 23px 64px 26px 66px;
+  text-decoration: none;
+}
+
+.header__link-form {
+  margin: 0;
+  color: #171717;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132%;
+  padding: 23px 29px;
+  border-radius: 5px;
+  border: 1px solid #171717;
+  text-decoration: none;
+}
+
+.header__image {
+  width: 528px;
+  height: 687px;
+  top: 108px;
+  left: 811px;
+  position: absolute;
+  z-index: 10;
+}
+
+.header__image-coffee {
+  margin-bottom: 0;
+  position: absolute;
+  left: 529px;
+  right: 0;
+  bottom: 0;
+}
+
+.header__image-grains {
+  position: absolute;
+}
+
+.title {
+  margin: 0;
+  margin-top: 90px;
+  margin: auto;
+  color: #181818;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 90px 408px 85px 408px;
+}
+
+.cards {
+  display: flex;
+  width: 1105px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid rgba(72, 72, 72, 0.40);
+  width: 268px;
+  margin-right: 11px;
+}
+
+.card__number {
+  color: #1B002F;
+  font-family: Helvetica Neue;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 108%;
+}
+
+.card__price-new {
+  color: #1B002F;
+  font-family: Helvetica Neue;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+}
+
+.card__price-back {
+  color: #A7ACBF;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+}
+
+.card__list {
+  list-style: none;
+}
+
+.card__list-element {
+  color: #2A2A2A;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.card__list-element:before {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+}
+
+
+.card__prepayment {
+  color: #A7ACBF;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+}
+
+.card__figure {
+  color: #1B002F;
+
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+}
+
+.card__button {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  /* 164.286% */
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #E10000;
+  padding: 12px 24px 8px 24px;
+  width: 224px;
+}
