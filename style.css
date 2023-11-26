@@ -164,6 +164,11 @@
   position: absolute;
 }
 
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   margin: 0;
   margin-top: 90px;
@@ -180,46 +185,65 @@
 
 .cards {
   display: flex;
+  justify-content: space-between;
   width: 1105px;
   margin: auto;
+  gap: 11px;
 }
 
 .card {
   border-radius: 10px;
   border: 1px solid rgba(72, 72, 72, 0.40);
   width: 268px;
-  margin-right: 11px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .card__number {
+  margin: 0;
   color: #1B002F;
   font-family: Helvetica Neue;
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
   line-height: 108%;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
 }
 
 .card__price-new {
+  margin: 0;
   color: #1B002F;
   font-family: Helvetica Neue;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: 108%;
+  margin-left: 23px;
 }
 
 .card__price-back {
+  margin: 0;
   color: #A7ACBF;
   font-family: Helvetica Neue;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 108%;
+  margin-top: 7px;
+  margin-bottom: 33px;
+  margin-left: 27px;
+  text-decoration-color: #F22;
 }
 
 .card__list {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  margin-left: 50px;
 }
 
 .card__list-element {
@@ -234,33 +258,44 @@
 
 .card__list-element:before {
   content: '✔';
+  width: 8px;
+  height: 8px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -15px;
   color: black;
 }
 
 
 .card__prepayment {
+  margin: 0;
   color: #A7ACBF;
   font-family: Helvetica Neue;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 108%;
+  margin-top: 25px;
+  margin-left: 23px;
 }
 
 .card__figure {
+  margin: 0;
   color: #1B002F;
-
   font-family: Helvetica Neue;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 108%;
+  margin-top: 6px;
+  margin-left: 23px;
+  margin-bottom: 21px;
 }
 
 .card__button {
+  margin: 0;
+  margin: auto;
+  margin-bottom: 12px;
   color: #FFF;
   text-align: center;
   font-family: Montserrat;
@@ -268,10 +303,19 @@
   font-style: normal;
   font-weight: 700;
   line-height: 23px;
-  /* 164.286% */
   text-transform: uppercase;
   border-radius: 10px;
   background: #E10000;
   padding: 12px 24px 8px 24px;
   width: 224px;
+}
+
+.present {
+  margin: auto;
+  border-radius: 20px;
+  background: linear-gradient(268deg, #F5C618 1.36%, #FFE481 97.73%);
+  min-height: 361px;
+  width: 1105px;
+  margin-top: 92px;
+  margin-bottom: 96px;
 }
