@@ -1,3 +1,6 @@
+
+
+
 .page {
   max-width: 1440px;
 
@@ -34,13 +37,13 @@
 
 .header__text {
   margin: 0;
-  margin-top: 24px;
+  margin-top: 17px;
   max-width: 629px;
   color: #232323;
   font-family: Museo Sans Cyrl;
   font-size: 44px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: -1.76px;
 }
@@ -49,13 +52,23 @@
   margin: 0;
   margin-top: 24px;
   color: #232323;
-  font-family: Helvetica Neue;
+  font-family: Museo Sans Cyrl;
   font-size: 35px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: -1.4px;
   max-width: 501px;
+}
+
+.header__span{
+  color: #232323;
+  font-family: Helvetica Neue;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.4px;
 }
 
 .date {
@@ -65,7 +78,7 @@
   font-family: Helvetica Neue;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: -1.6px;
 }
@@ -114,7 +127,7 @@
 
 .header__link-price {
   margin: 0;
-  margin-right: 16px;
+  margin-right: 8px;
   color: #FFF;
   text-align: center;
   font-family: Helvetica Neue;
@@ -164,7 +177,7 @@
   position: absolute;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
 }
@@ -177,7 +190,7 @@
   text-align: center;
   font-family: Helvetica Neue;
   font-size: 37px;
-  font-style: normal;
+  
   font-weight: 700;
   line-height: 120%;
   padding: 90px 408px 85px 408px;
@@ -208,10 +221,18 @@
   font-style: normal;
   font-weight: 500;
   line-height: 108%;
-  margin: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-left: 69px;
+  padding-top: 37px;
+  padding-bottom: 44px;
+  letter-spacing: 0.02em;
+}
 
+.card__number-one {
+  margin-left: 57px;
+}
+
+.card__number-five{
+  margin-left: 49px;
 }
 
 .card__price-new {
@@ -254,6 +275,7 @@
   font-weight: 400;
   line-height: normal;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .card__list-element:before {
@@ -289,7 +311,7 @@
   line-height: 108%;
   margin-top: 6px;
   margin-left: 23px;
-  margin-bottom: 21px;
+  margin-bottom: 18px;
 }
 
 .card__button {
@@ -301,21 +323,202 @@
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 23px;
   text-transform: uppercase;
   border-radius: 10px;
   background: #E10000;
   padding: 12px 24px 8px 24px;
   width: 224px;
+  border: 0;
 }
 
 .present {
   margin: auto;
   border-radius: 20px;
   background: linear-gradient(268deg, #F5C618 1.36%, #FFE481 97.73%);
-  min-height: 361px;
+  max-height: 361px;
   width: 1105px;
   margin-top: 92px;
   margin-bottom: 96px;
+  overflow: hidden;
+  display: flex;
 }
+
+.present__gereen {
+  width: 619px;
+  height: 707px;
+  transform: rotate(21.523deg);
+  border-radius: 70px;
+  /* background: linear-gradient(201deg, #2E2F0B 2.5%, rgba(140, 142, 8, 0.00) 86.35%); */
+  margin-left: -229px;
+  margin-top: -66px;
+  background: linear-gradient(201deg, #2E2F0B 2.5%, rgba(140, 142, 8, 0.00) 86.35%);
+
+}
+
+.present__title {
+  color:rgba(140, 142, 8);
+  font-family: Bebas Neue Cyrillic;
+  font-size: 127px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79%;
+  /* 100.33px */
+  letter-spacing: -5.08px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 84px;
+  margin-bottom: 19px;
+  padding-left: 100px;
+}
+
+.present__subtitle {
+  color: #2C2C2C;
+  margin: 0;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 97px;
+  letter-spacing: 0.01em;
+}
+
+.present__subtitle-emigration{
+  margin-top: 31px;
+  
+}
+
+.present__subtitle-span {
+  color: #2C2C2C;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.form {
+  width: 100%;
+  background-color: #F5C618;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 49px;
+  padding-bottom: 60px;
+}
+
+.form__title {
+  margin: 0;
+  color: #151515;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.form__subtitle {
+  margin: 0;
+  color: #151515;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  margin-top: 23px;
+  margin-bottom: 34px;
+}
+
+.form__inputs {
+  max-width: 533px;
+
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: #FFF;
+  color: #686868;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.24px;
+  text-align: center;
+}
+
+.form__button {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  max-width: 553px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #E10000;
+  padding: 29px 165px;
+  border: none;
+  margin-top: 3px;
+  margin-bottom: 26px;
+}
+
+.form__text {
+  max-width: 566px;
+  color: #151515;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.footer{
+  padding-top: 27px;
+  padding-bottom: 54px;
+  background-color: #2A2A2A;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.footer__info{
+  margin: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: -0.44px;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.footer__contacts{
+  margin: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.32px;
+  max-width: 797px;
+  margin-bottom: 43px;
+}
+

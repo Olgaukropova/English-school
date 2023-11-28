@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
   <title>English</title>
 </head>
 
@@ -56,9 +57,8 @@
 
       <section class="cards">
         <div class="card">
-          <p class="card__number">Один курс</p>
+          <p class="card__number card__number-one">Один курс</p>
           <p class="card__price-new">10 900 ₽</p>
-          <!-- <p class="card__price-back">24 900 ₽</p> -->
           <del class="card__price-back">24 900 ₽</del>
           <ul class="card__list">
             <li class="card__list-element">2 месяца обучения</li>
@@ -78,8 +78,8 @@
           <button class="card__button">внести предоплату из-за границы</button>
         </div>
         <div class="card">
-          <p class="card__number">Один курс</p>
-          <p class="card__price-new">10 900 ₽</p>
+          <p class="card__number">Два курса</p>
+          <p class="card__price-new">21 900 ₽</p>
           <del class="card__price-back">24 900 ₽</del>
           <ul class="card__list">
             <li class="card__list-element">2 месяца обучения</li>
@@ -98,28 +98,8 @@
           <button class="card__button">внести предоплату из-за границы</button>
         </div>
         <div class="card">
-          <p class="card__number">Один курс</p>
-          <p class="card__price-new">10 900 ₽</p>
-          <del class="card__price-back">24 900 ₽</del>
-          <ul class="card__list">
-            <li class="card__list-element">2 месяца обучения</li>
-            <li class="card__list-element">Грамматическая выжимка</li>
-            <li class="card__list-element">Разговорный тренажёр</li>
-            <li class="card__list-element">Слова с ассоциациями</li>
-            <li class="card__list-element">Регулярные мини-задания</li>
-            <li class="card__list-element">Персональный куратор</li>
-            <li class="card__list-element">Сертификат об обучении</li>
-            <li class="card__list-element">Best Teachers</li>
-            <li class="card__list-element">Звонки от Second Teacher</li>
-                      </ul>
-          <p class="card__prepayment">Предоплата</p>
-          <p class="card__figure">900 ₽</p>
-          <button class="card__button">внести предоплату из рф</button>
-          <button class="card__button">внести предоплату из-за границы</button>
-        </div>
-        <div class="card">
-          <p class="card__number">Один курс</p>
-          <p class="card__price-new">10 900 ₽</p>
+          <p class="card__number">Три курса</p>
+          <p class="card__price-new">28 900 ₽</p>
           <del class="card__price-back">24 900 ₽</del>
           <ul class="card__list">
             <li class="card__list-element">2 месяца обучения</li>
@@ -136,24 +116,78 @@
           <p class="card__figure">900 ₽</p>
           <button class="card__button">внести предоплату из рф</button>
           <button class="card__button">внести предоплату из-за границы</button>
-        </div>    
+        </div>
+        <div class="card">
+          <p class="card__number card__number-five">Пять курсов</p>
+          <p class="card__price-new">44 900 ₽</p>
+          <del class="card__price-back">24 900 ₽</del>
+          <ul class="card__list">
+            <li class="card__list-element">2 месяца обучения</li>
+            <li class="card__list-element">Грамматическая выжимка</li>
+            <li class="card__list-element">Разговорный тренажёр</li>
+            <li class="card__list-element">Слова с ассоциациями</li>
+            <li class="card__list-element">Регулярные мини-задания</li>
+            <li class="card__list-element">Персональный куратор</li>
+            <li class="card__list-element">Сертификат об обучении</li>
+            <li class="card__list-element">Best Teachers</li>
+            <li class="card__list-element">Звонки от Second Teacher</li>
+          </ul>
+          <p class="card__prepayment">Предоплата</p>
+          <p class="card__figure">900 ₽</p>
+          <button class="card__button">внести предоплату из рф</button>
+          <button class="card__button">внести предоплату из-за границы</button>
+        </div>
       </section>
 
       <section class="present">
-<p>подарок</p>
-<p>Спецкурс "Английский для эмиграции"</p>
-<p>Спецкурс "Как преодолеть языковой барьер"</p>
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
+
+        <div class="present__gereen"></div>
+        <div>
+          <p class="present__title">подарок</p>
+          <p class="present__subtitle present__subtitle-emigration"><span class="present__subtitle-span">Спецкурс</span>
+                "Английский для эмиграции"
+          </p>
+          <p class="present__subtitle present__subtitle-simply"><span class="present__subtitle-span">Спецкурс</span>
+              "Как   преодолеть языковой
+            барьер"</p>
+        </div>
 
       </section>
-      
+
+      <section class="form">
+
+        <p class="form__title">Еще думаете?</p>
+        <p class="form__subtitle">Записывайтесь на бесплатный урок и <br> попробуйте сами, это поможет <br> принять
+          решение</p>
+        <form action="" class="form__inputs">
+          <input class="form__input" type="text" placeholder="Введите ваше имя">
+          <input class="form__input" type="text" placeholder="Введите ваш телефон">
+          <input class="form__input" type="email" placeholder="Введите ваш email">
+
+        </form>
+        <button class="form__button">записаться</button>
+        <p class="form__text">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
+          политикой конфиденциальности</p>
+
+      </section>
+
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__logotype">
+        <img src="./images/Group 48096076.svg" alt="логотип">
+      </div>
+      <p class="footer__info">2015 - 2021 © English. Все права защищены. Политика конфиденциальности <br>Соглашение об
+        обработке персональных
+        данных</p>
+      <p class="footer__contacts">ООО "Инглиш", юридический адрес: 000000, Санкт-Петербург, ул. Улица, д. 0/00 лит. 0,
+        пом. 0
+        ОГРН: 000000000000 | ИНН: 000000000 | КПП: 000000000</p>
+      <div class="footer__links">
+        <a href=""><img src="./images/vk_red copy.svg" alt="вконтакте"></a>
+        <a href=""><img src="./images/bxl_telegram.svg" alt="телеграм"></a>
+      </div>
+    </footer>
   </div>
 
 
