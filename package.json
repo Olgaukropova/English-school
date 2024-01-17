@@ -1,0 +1,11 @@
+{
+  "name": "english-school",
+  "version": "1.0.0",
+  "description": "api  для сервиса регистрации на stand-up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olga Ukropova",
+  "license": "ISC"
+}
